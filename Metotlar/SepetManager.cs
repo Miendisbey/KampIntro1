@@ -9,13 +9,13 @@ namespace Metotlar
         //naming convention
         public void Ekle(Product product)
         {
-            Console.WriteLine("Tebrikler. Sepete Eklendi : " + product.Adi);
+            Console.WriteLine("Tebrikler. Sepete Eklendi : " + product.Adi +" "+ product.Aciklama+" "+ product.Fiyati + product.fiyatBirim);
             
         }
-
-        public void Ekle2(string productAdi, string aciklama, double fiyat, int stokAdedi)
+        //Yukarıdaki kullanım daha doğru. Alttaki kullanımda yeni girdi olduğu zaman patlıyor.
+        public void Ekle2(string productAdi, string aciklama, double fiyat, string fiyatBirim, int stokAdedi)
         {
-            Console.WriteLine("Tebrikler. Sepete Eklendi : " + productAdi);
+            Console.WriteLine("Tebrikler. Sepete Eklendi : " + productAdi +" "+ aciklama +" "+ fiyat + fiyatBirim);
         }
     }
 }
