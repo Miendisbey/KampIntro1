@@ -20,12 +20,15 @@ namespace Methods_task1___
             //Console.WriteLine(result2);
             //Console.WriteLine(number1);
 
-            Console.WriteLine(Multiply(2,4));
-            Console.WriteLine(Multiply(2,4,5));
+            Console.WriteLine(Multiply(2, 4));
+            Console.WriteLine(Multiply(2, 4, 5));
 
-            Console.WriteLine(Add4(1,2,3,4,5,6));
+            Console.WriteLine(Add4(1, 2, 3, 4, 5, 6));
             Console.ReadLine();
         }
+        
+
+
 
         static void Add()
         {
